@@ -1,0 +1,69 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Style the container */
+  .container {
+    margin: 20px auto;
+    max-width: 1200px;
+  }
+  
+  /* Header styles */
+  .row > .col-md-12 h1 {
+    font-size: 36px;
+    color: #007bff;
+  }
+  
+  .row > .col-md-12 p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Style the dropdown and demographic info panel */
+  .card.card-body {
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card.card-primary {
+    margin-top: 10px;
+    background-color: #e9ecef;
+    border: 1px solid #ddd;
+  }
+  
+  .card-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Style the metadata panel */
+  #sample-metadata h6 {
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  /* Style the charts */
+  #bar, #bubble {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive styling */
+  @media screen and (max-width: 768px) {
+    .col-md-3, .col-md-9 {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
